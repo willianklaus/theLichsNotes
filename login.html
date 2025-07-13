@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Lich's Notes Login</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./assets/logo.svg" type="image/x-icon">
+</head>
+<body class="login-screen">
+  <div class="login-container">
+    <h1>The Lich's Notes</h1>
+
+    <form id="loginForm">
+      <label for="nickname"></label>
+      <input type="text" id="nickname" placeholder="Digite seu nickname..." required />
+
+      <label for="apiKey"></label>
+      <input type="text" id="apiKey" placeholder="Digite sua API Key" required />
+
+      <button type="submit">Conectar</button>
+    </form>
+
+    <p class="help-link">
+      <a href="https://makersuite.google.com/app/apikey" target="_blank">Não tenho uma API Key</a>
+    </p>
+  </div>
+
+  <script src="./script/login.js"></script>
+</body>
+</html>
