@@ -1,2 +1,2 @@
 # theLichsNotes
-Tenha o Lich Rei, agora como seu conselheiro em IA 
+Tenha o Lich Rei como seu conselheiro em IA 
